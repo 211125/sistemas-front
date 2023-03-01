@@ -36,7 +36,7 @@ const Home = () => {
             .then(res => {
                 console.log(res.data2)
             })
-        alert('Cuenta Creada')
+       
 
     }
     function handle(e) {
