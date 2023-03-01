@@ -127,24 +127,24 @@ const Home = () => {
                             </div>
                             <div className="label">
 
-                            <Label className="mb-2 fw-bold">nombre del primer integrante </Label>
+                                <Label className="mb-2 fw-bold">nombre del primer integrante </Label>
                                 <input type="text" className="form-control" onChange={(e) => handle(e)} id="name" value={data2.name} placeholder="nombre" required ></input>
                             </div>
                             <div className="label">
-                            <Label className="mb-2 fw-bold">apellido del primer integrante </Label>
+                                <Label className="mb-2 fw-bold">apellido del primer integrante </Label>
                                 <input type="text" className="form-control" onChange={(e) => handle(e)} id="apellido" value={data2.apellido} placeholder="apellido" required ></input>
                             </div>
                             <div className="label">
-                            <Label className="mb-2 fw-bold">nombre del segundo integrante </Label>
+                                <Label className="mb-2 fw-bold">nombre del segundo integrante </Label>
                                 <input type="text" className="form-control" onChange={(e) => handle(e)} id="name2" value={data2.name2} placeholder="nombre" required></input>
                             </div>
                             <div className="label">
-                            <Label className="mb-2 fw-bold">apellido del segundo integrante </Label>
+                                <Label className="mb-2 fw-bold">apellido del segundo integrante </Label>
                                 <input type="text" className="form-control" onChange={(e) => handle(e)} id="apellido2" value={data2.apellido2} placeholder="apellido" required></input>
                             </div>
                             <div className="text-center">
-  <button onClick={(e) => Enviar(e)} className="btn btn-primary">agregar</button>
-</div>
+                                <button onClick={(e) => Enviar(e)} className="btn btn-primary">agregar</button>
+                            </div>
 
 
                         </form>
